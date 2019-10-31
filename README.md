@@ -1,5 +1,5 @@
 # Git automation
-The purpose with *Git automation* was to automate the process of creating a repo, both locally and remotely.  
+The purpose with *Git automation* was to automate the process of initializing a repo, both locally and remotely.  
 This was done using the [GitHub API](https://developer.github.com/v3/repos/).
 
 ## Prerequisites
