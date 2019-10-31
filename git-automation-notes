@@ -1,0 +1,42 @@
+Git automation:
+
+- navigate to 'my-projects'
+--- cd ...
+- create a folder with project name
+--- mkdir ...
+- navigate into folder
+--- cd ...
+- git init
+- go to GitHub and create new repository
+- copy the remote
+- add remote to my local folder
+- create a README.md file
+--- touch README.md
+- git add .
+- git commit
+- git push
+- code .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
