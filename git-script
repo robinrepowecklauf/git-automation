@@ -1,0 +1,30 @@
+#!/bin/sh
+
+USERNAME=''
+GIT_REPO_PATH=''
+GIT_REPO_NAME=$1
+
+cd $REPO_PATH
+mkdir $GIT_REPO_NAME
+cd $GIT_REPO_NAME
+
+curl -u $USERNAME https://api.github.com/user/repos -d "{\"name\": \"$GIT_REPO_NAME\""
+
+git init
+git remote add origin https://github.com/$USERNAME/$GIT_REPO_NAME.git
+touch README.md
+git add .
+git commit -m "initial commit"
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
