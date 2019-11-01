@@ -19,4 +19,4 @@ USERNAME='<YOUR_GITHUB_USERNAME>'
 GIT_REPO_PATH='<WHERE_YOUR_REPO_IS_BEING_PUT>'
 ```
 7. Save, and restart the terminal.
-8. Write `<COMMAND_TO_USE_IN_TERMINAL> <PROJECT_NAME>` to create the repository locally and remotely.
+8. Write `<COMMAND_TO_USE_IN_TERMINAL> <PROJECT_NAME>` to initialize the repo, both locally and remotely.
